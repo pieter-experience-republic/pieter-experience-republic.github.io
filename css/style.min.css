@@ -156,6 +156,7 @@ h1{
     z-index:99;
 }
 .colour-answer{
+    z-index:999;
     background-color:#0090d4;
 }
 /* .colour-answer.one{
