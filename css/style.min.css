@@ -100,7 +100,7 @@ h1{
 }
 .dropzones .dropzone{
     border:1px solid #0090d4;
-    min-height:300px;
+    min-height:250px;
     margin-bottom:10px
 }
 .dropzones .button{
