@@ -79,17 +79,12 @@
                     <div class="row justify-content-center">
                         <div class="column">
                             <h2>COC</h2>
-                        </div>
-                        <div class="column">
-                            <h2>RVB</h2>
-                        </div>
-                    </div>
-
-                    <div class="row justify-content-center">
-                        <div class="column column-50">
                             <div id="right" class="dropzone ui-sortable"></div>
                         </div>
-                        <div class="column column-50">
+                    </div>
+                    <div class="row justify-content-center">                             
+                        <div class="column">
+                            <h2>RVB</h2>
                             <div id="wrong" class="dropzone ui-sortable"></div>
                         </div>
                     </div>
@@ -123,7 +118,7 @@
 $(function() {
     function makeDraggable() {
         $("#colour-grid .colour-answer").draggable({
-            revert: 'invalid',
+            revert: 'invalid',          
             connectToSortable: "#wrong, #right"
         });
     }

@@ -92,7 +92,6 @@ h1{
 }
 
 .dropzones{
-    margin-top:2.5rem;
     padding:20px
 }
 .dropzones h2{
@@ -101,7 +100,7 @@ h1{
 }
 .dropzones .dropzone{
     border:1px solid #0090d4;
-    min-height:400px;
+    min-height:300px;
     margin-bottom:10px
 }
 .dropzones .button{
@@ -156,7 +155,10 @@ h1{
 .button-holder{
     z-index:99;
 }
-.colour-answer.one{
+.colour-answer{
+    background-color:#0090d4;
+}
+/* .colour-answer.one{
     background-color:#4680B0;
 }
  .colour-answer.two{
@@ -212,4 +214,4 @@ h1{
 }
  .colour-answer.seventeen{
     background-color:#8099D9;
-}
+} */
