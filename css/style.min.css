@@ -1,5 +1,5 @@
 /* When the screen is less wide than 1500px, scale the body to 85% */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1600px) {
   body {
     scale: 85%;
   }
