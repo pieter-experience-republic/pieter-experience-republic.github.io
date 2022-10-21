@@ -1,3 +1,10 @@
+/* When the screen is less wide than 1500px, scale the body to 85% */
+@media screen and (max-width: 1500px) {
+  body {
+    scale: 85%;
+  }
+}
+
 .button{
     background-color:#b50931;
     border:none;
