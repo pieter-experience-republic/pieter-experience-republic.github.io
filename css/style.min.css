@@ -1,3 +1,10 @@
+/* If the screen is less wide than 1600px, scale the body to 85%. */
+@media screen and (max-width: 1600px) {
+  body {
+    scale(85);
+  }
+}
+
 .button{
     background-color:#b50931;
     border:none;
@@ -73,7 +80,7 @@ h1{
 .colour-answer{
     text-overflow:ellipsis;
     overflow:hidden;
-    height:25px;
+    height:20px;
     padding:0px 5px 0px 5px;
     margin-top:10px;
     margin-bottom:10px;
@@ -100,7 +107,7 @@ h1{
 }
 .dropzones .dropzone{
     border:1px solid #0090d4;
-    min-height:250px;
+    min-height:20vh;
     margin-bottom:10px
 }
 .dropzones .button{
